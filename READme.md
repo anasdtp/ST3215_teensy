@@ -23,8 +23,8 @@ This PlatformIO project serves as a base to use the ST3215 Servo with the Teensy
 ```console
 Teensy 4.1                     ST3215
 ------------                   ------
-Pin 1  (TX1) ---->[1 kΩ]------> DATA
-Pin 0 (RX1) <------------------ DATA
+Pin 1  (TX1) ---->[1 kΩ]------> DATA<->|
+Pin 0 (RX1) <------------------ DATA<->|
 GND --------------------------- GND
                                 Vcc <------------------------- 7V à 12V externe
 ```
