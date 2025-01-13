@@ -20,12 +20,14 @@ This PlatformIO project serves as a base to use the ST3215 Servo with the Teensy
 ## Usage
 
 1. Connect the ST3215 Servo to the Teensy 4.1 according to :
-        Teensy 4.1                     ST3215
-        ------------                   ------
-        Pin 1  (TX1) ---->[1 kΩ]------> DATA
-        Pin 0 (RX1) <------------------ DATA
-        GND --------------------------- GND
-                                        Vcc <------------------------- 7V à 12V externe
+```console
+Teensy 4.1                     ST3215
+------------                   ------
+Pin 1  (TX1) ---->[1 kΩ]------> DATA
+Pin 0 (RX1) <------------------ DATA
+GND --------------------------- GND
+                                Vcc <------------------------- 7V à 12V externe
+```
 2. Build and upload the project to the Teensy 4.1 using PlatformIO.
 3. The servo should now be operational.
 
